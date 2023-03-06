@@ -54,19 +54,29 @@
 $ git clone git@github.com:Bielbcs/delivery_app.git
 ```
 
-2) Instale as dependencias
+2) Entre na pasta raíz do projeto
+
+```bash
+$ cd delivery_app
+```
+
+3) Instale as dependencias
 
 ```bash
 $ npm run deps
 ```
 
-3) Suba um container com o banco de dados Mysql
+4) Renomeie o arquivo `.env.example` para `.env`
+
+Altere as variáveis se necessário.
+
+5) Suba um container com o banco de dados Mysql
 
 ```bash
 $ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=senhaDoDB -d mysql
 ```
 
-4) Inicie a aplicação
+6) Inicie a aplicação
 
 ```bash
 $ npm run dev
