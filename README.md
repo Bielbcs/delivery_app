@@ -1,13 +1,82 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+#  Projeto DeliveryApp 
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+  <summary>
+    <h3> Descrição 📝</h3>
+  </summary>
+  Projeto feito durante o curso da <a href="https://www.betrybe.com/">Trybe</a> para testar os conhecimentos adquiridos.
+  </br>
+  Aplicação completa de um app de delivery onde um usuário é capaz de comprar e acompanhar o andamento de sua entrega, quanto o vendedor consegue ver seus pedidos e atualizar os status </br>
+  Projeto feito com base na arquitetura <i>Model-Service-Controller</i>.
+  </br></br>
+  <table>
+    <tr>
+      <td>Tecnologias Backend</td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>NodeJs</li>
+          <li>Express</li>
+          <li>Sequelize</li>
+          <li>Docker</li>
+          <li>MySQL</li>
+          <li>JWT</li>
+          <li>Joi</li>
+          <li>Mocha</li>
+          <li>Sinnon</li>
+          <li>Chai</li>
+        </ul>
+      </td>
+    </tr>
+       <tr>
+        <td>Tecnologias Frontend</td>
+      </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>ReactJs</li>
+          <li>CSS</li>
+          <li>Jest</li>
+          <li>RTL</li>
+          <li>JSX</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  
+  <summary><h3>Como rodar localmente 👨‍💻</h3></summary></br>
+  
+  ⚠️ Necessário Docker e Docker-Compose ⚠️
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+1) Clone o repositório
+
+```bash
+$ git clone git@github.com:Bielbcs/delivery_app.git
+```
+
+2) Instale as dependencias
+
+```bash
+$ npm run deps
+```
+
+3) Suba um container com o banco de dados Mysql
+
+```bash
+$ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=senhaDoDB -d mysql
+```
+
+4) Inicie a aplicação
+
+```bash
+$ npm run dev
+```
+ 
+### 📞 Entre em contato 📞
+ 
+ <div align="center" margin="50px">
+	  <a href = "mailto:bielcotrimsv@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+	<a href="https://github.com/Bielbcs" target="_blank"><img src="https://img.shields.io/badge/-GitHub-%23333?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  	<a href="https://www.linkedin.com/in/gabriel-bernardo-541661220/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
+ 
