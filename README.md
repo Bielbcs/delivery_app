@@ -66,20 +66,23 @@ $ cd delivery_app
 $ npm run deps
 ```
 
-4) Renomeie o arquivo `.env.example` para `.env`
+4) Renomeie o arquivo `.env.example` para `.env` (caso já possua um banco mysql local personalize as variáveis e ignore o passo 5)
 
-Altere as variáveis se necessário.
+```bash
+$ mv back-end/.env.example back-end/.env
+```
 
 5) Suba um container com o banco de dados Mysql
 
 ```bash
-$ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=senhaDoDB -d mysql
+$ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=senhaDoDB -d -p 127.0.0.1:3306:3306 mysql
 ```
 
 6) Inicie a aplicação
 
 ```bash
-$ npm run dev
+$ npm run dev:prestart &&
+npm run dev
 ```
  
 ### 📞 Entre em contato 📞
