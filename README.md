@@ -1,4 +1,4 @@
-#  Projeto DeliveryApp 
+# 🛵 Projeto DeliveryApp 🛵
 
   <summary>
     <h3> Descrição 📝</h3>
@@ -43,6 +43,20 @@
       </td>
     </tr>
   </table>
+  
+  <summary><h3>Credenciais 🔒</h3></summary>
+  
+  #### Cliente:
+  Email: `zebirita@email.com`
+  Senha: `$#zebirita#$`
+  
+  #### Vendedor:
+  Email: `fulana@deliveryapp.com`
+  Senha: `fulana@123`
+  
+  #### Admin:
+  Email: `adm@deliveryapp.com`
+  Senha: `--adm2@21!!--`
   
   <summary><h3>Como rodar localmente 👨‍💻</h3></summary></br>
   
